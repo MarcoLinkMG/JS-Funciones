@@ -1,0 +1,37 @@
+body{
+
+    background-color: black;
+    color: white;
+}
+
+.main{
+    grid-area: main;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    grid-area: menu;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-areas:
+    "menu main";
+
+}
+
+
+.caja{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: crimson;
+    
+}
